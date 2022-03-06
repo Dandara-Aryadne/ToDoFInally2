@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://images.hdqwalls.com/download/red-pearls-flowers-4k-hu-1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Syne Mono", monospace;
+  font-size: 30px;
+  color: white;
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  margin-top: 10vh;
+}
+.box input {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 10px;
+  width: 24vw;
+  height: 10vh;
+  color: black;
+  background-color: #9abde7;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.btn1 button {
+  position: relative;
+  left: 13vw;
+  bottom: 10vh;
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 15px;
+  width: 6vw;
+  height: 10vh;
+  color: black;
+  background-color: #9abde7;
+  cursor: pointer;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+}
+.first li {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  color: white;
+  list-style: none;
+}
+.first img {
+  cursor: pointer;
+}
+.trash {
+  width: 2vw;
+  height: 3.4vh;
+}
